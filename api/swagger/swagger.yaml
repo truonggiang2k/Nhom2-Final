@@ -1,0 +1,36 @@
+swagger: "2.0"
+info:
+  version: "1.0"
+  title: CRUD API
+host: localhost:8000
+basePath: /
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /v1/author:
+    get:
+      description: Get all author in database
+      summary: Get all author
+      operationId: getAuthor
+      parameters: []
+      responses:
+        "200":
+          description: "Get author successfully"
+          
+              
+    
+  /v1/book:
+    get:
+      description: Get all books in database
+      summary: Get all books
+      operationId: getBook
+      parameters: []
+      responses:
+        "200":
+          description: "Get books successfully"
+          
+            
